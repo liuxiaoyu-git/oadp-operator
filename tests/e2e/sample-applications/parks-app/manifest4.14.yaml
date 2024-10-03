@@ -172,7 +172,7 @@ items:
               value: moogo-admin-pass
             volumeMounts:
             - name: mongodb-data
-              mountPath: /data/db"
+              mountPath: /data/db
             imagePullPolicy: Always
           volumes:
           - name: mongodb-data
